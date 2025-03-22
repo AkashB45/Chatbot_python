@@ -17,7 +17,7 @@ genai.configure(api_key=API_KEY)
 # Function to get response from Gemini
 def get_response(user_input):
     try:
-        model = genai.GenerativeModel("gemini-1.5-pro")  # ✅ Correct model name
+        model = genai.GenerativeModel("gemini-1.5-pro") 
         response = model.generate_content(user_input)
         return response.text if response else "Sorry, I couldn't understand that."
     except Exception as e:
@@ -26,7 +26,7 @@ def get_response(user_input):
 # Streamlit UI
 st.set_page_config(page_title="AI Chatbot", layout="centered")
 
-st.title("🤖 Grigo AI Chatbot ")
+st.title("🤖 Agilan AI Chatbot")
 st.markdown("### Ask me anything!")
 
 # Initialize chat history
