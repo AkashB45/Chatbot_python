@@ -26,7 +26,7 @@ def get_response(user_input):
 # Streamlit UI
 st.set_page_config(page_title="AI Chatbot", layout="centered")
 
-st.title("🤖 AI Chatbot (Powered by Gemini)")
+st.title("🤖 Grigo AI Chatbot ")
 st.markdown("### Ask me anything!")
 
 # Initialize chat history
